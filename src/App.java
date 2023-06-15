@@ -44,7 +44,7 @@ public class App {
                 
                 conexao.close();
             } else {
-
+                System.out.println("Conexao com o banco falhou");
             }
 
         } catch(SQLException exception) {
