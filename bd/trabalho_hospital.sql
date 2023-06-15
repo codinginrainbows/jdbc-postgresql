@@ -1,6 +1,7 @@
 DROP DATABASE IF EXISTS hospital;
 CREATE DATABASE hospital;
 
+\c nome_do_BANCO;
 -- psql -U postgres
 -- criar -> \i nome_do_ARQUIVO.sql;
 -- conectar -> \c nome_do_BANCO;
